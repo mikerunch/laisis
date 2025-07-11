@@ -3,7 +3,7 @@ LAISIS – Quickstart Guide
   1.	First, install Ollama:
     https://ollama.com/download
   2.	Then, start the script:
-    Run model_management.py using Python (e.g. python3 model_management.py)
+    Run laisis_model-management.py using Python (e.g. with python3)
 
 ⸻
 
