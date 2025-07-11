@@ -1,0 +1,38 @@
+LAISIS – Quickstart Guide
+
+  1.	First, install Ollama:
+    https://ollama.com/download
+  2.	Then, start the script:
+    Run model_management.py using Python (e.g. python3 model_management.py)
+
+⸻
+
+Available commands in the terminal:
+	•	install ollama
+Shows info on how to manually install Ollama
+	•	start ollama
+Starts the Ollama server in the background
+	•	stop ollama
+Stops the running Ollama server
+	•	download model <name>
+Downloads a model (e.g. download model mistral)
+	•	delete model
+Removes the currently active model
+	•	start model <port>
+Starts the model on the selected port and checks if it’s ready
+→ After this, the model is running on the local server and ready to be accessed by your software via the LAISIS SDK.
+	•	stop model
+Stops the model (Ollama is shut down)
+	•	chat model
+Opens a simple test chat interface for trying out the model directly in the terminal
+→ This is just for quick testing.
+	•	exit
+Exits the LAISIS script
+
+⸻
+
+Example flow:
+	1.	start ollama
+	2.	download model mistral
+	3.	start model 11434
+	4.	chat model (optional)
