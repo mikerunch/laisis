@@ -4,9 +4,9 @@ import laisis_sdk
 sdk = laisis_sdk.LAISIS(port=11434)
 
 # Send message via the SDK object
-antwort = sdk.send_message("Hello, how are you?")
+answer = sdk.send_message("Hello, how are you?")
 
 # Wait for the user to press Enter before showing the answer
 input("Press [Enter] to see the answer...")
 
-print("AI Answer:", antwort)
+print("AI Answer:", answer)
